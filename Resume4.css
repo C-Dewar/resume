@@ -1,4 +1,5 @@
 body {
+  /*this is the background gradient code from www.gradientmagic.com */
   background: linear-gradient(
       307deg,
       transparent 0%,
@@ -36,6 +37,8 @@ body {
       transparent 100%
     ),
     linear-gradient(90deg, rgb(71, 72, 56), rgb(71, 72, 56));
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-repeat: no-repeat; /*This ensures that only a single copy of the background is created regardless of the size of the screen*/
+  background-attachment: fixed; /*This ensures that the background stays fixed on the screen as the individual scrolls through the written content*/
+  background-position: center; /*This ensures that the background is centred on the device so that the shadowlines and colours are simillar and relatable across different viewing devices*/
+  background-size: cover; /*This ensures that the background covers the entire canvas of the screen regardless of discrepencies in sizes of the device upon which it will be viewed*/
 }
