@@ -1,0 +1,41 @@
+body {
+  background: linear-gradient(
+      307deg,
+      transparent 0%,
+      transparent 10%,
+      rgba(171, 174, 137, 0.4) 10%,
+      rgba(171, 174, 137, 0.4) 64%,
+      transparent 64%,
+      transparent 100%
+    ),
+    linear-gradient(
+      118deg,
+      transparent 0%,
+      transparent 11%,
+      rgba(171, 174, 137, 0.4) 11%,
+      rgba(171, 174, 137, 0.4) 31%,
+      transparent 31%,
+      transparent 100%
+    ),
+    linear-gradient(
+      73deg,
+      transparent 0%,
+      transparent 22%,
+      rgba(171, 174, 137, 0.4) 22%,
+      rgba(171, 174, 137, 0.4) 90%,
+      transparent 90%,
+      transparent 100%
+    ),
+    linear-gradient(
+      156deg,
+      transparent 0%,
+      transparent 51%,
+      rgba(171, 174, 137, 0.4) 51%,
+      rgba(171, 174, 137, 0.4) 97%,
+      transparent 97%,
+      transparent 100%
+    ),
+    linear-gradient(90deg, rgb(71, 72, 56), rgb(71, 72, 56));
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
