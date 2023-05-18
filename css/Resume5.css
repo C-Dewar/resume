@@ -1,0 +1,107 @@
+body {
+    /*this is the background gradient code from www.gradientmagic.com */
+    background: linear-gradient(
+        307deg,
+        transparent 0%,
+        transparent 10%,
+        rgba(171, 174, 137, 0.4) 10%,
+        rgba(171, 174, 137, 0.4) 64%,
+        transparent 64%,
+        transparent 100%
+      ),
+      linear-gradient(
+        118deg,
+        transparent 0%,
+        transparent 11%,
+        rgba(171, 174, 137, 0.4) 11%,
+        rgba(171, 174, 137, 0.4) 31%,
+        transparent 31%,
+        transparent 100%
+      ),
+      linear-gradient(
+        73deg,
+        transparent 0%,
+        transparent 22%,
+        rgba(171, 174, 137, 0.4) 22%,
+        rgba(171, 174, 137, 0.4) 90%,
+        transparent 90%,
+        transparent 100%
+      ),
+      linear-gradient(
+        156deg,
+        transparent 0%,
+        transparent 51%,
+        rgba(171, 174, 137, 0.4) 51%,
+        rgba(171, 174, 137, 0.4) 97%,
+        transparent 97%,
+        transparent 100%
+      ),
+      linear-gradient(90deg, rgb(71, 72, 56), rgb(71, 72, 56));
+    background-repeat: no-repeat; /*This ensures that only a single copy of the background is created regardless of the size of the screen*/
+    background-attachment: fixed; /*This ensures that the background stays fixed on the screen as the individual scrolls through the written content*/
+    background-position: center; /*This ensures that the background is centred on the device so that the shadowlines and colours are simillar and relatable across different viewing devices*/
+    background-size: cover; /*This ensures that the background covers the entire canvas of the screen regardless of discrepencies in sizes of the device upon which it will be viewed*/
+  }
+  header {
+    text-align: center;
+  }
+  aside {
+    background-image: linear-gradient(
+        45deg,
+        rgba(254, 246, 210, 0.53) 0%,
+        rgba(254, 246, 210, 0.53) 14.286%,
+        rgba(221, 240, 216, 0.53) 14.286%,
+        rgba(221, 240, 216, 0.53) 28.572%,
+        rgba(188, 233, 223, 0.53) 28.572%,
+        rgba(188, 233, 223, 0.53) 42.858%,
+        rgba(156, 227, 229, 0.53) 42.858%,
+        rgba(156, 227, 229, 0.53) 57.144%,
+        rgba(123, 220, 235, 0.53) 57.144%,
+        rgba(123, 220, 235, 0.53) 71.42999999999999%,
+        rgba(90, 214, 242, 0.53) 71.43%,
+        rgba(90, 214, 242, 0.53) 85.71600000000001%,
+        rgba(57, 207, 248, 0.53) 85.716%,
+        rgba(57, 207, 248, 0.53) 100.002%
+      ),
+      linear-gradient(
+        135deg,
+        rgb(246, 99, 200) 0%,
+        rgb(246, 99, 200) 12.5%,
+        rgb(223, 98, 196) 12.5%,
+        rgb(223, 98, 196) 25%,
+        rgb(199, 97, 192) 25%,
+        rgb(199, 97, 192) 37.5%,
+        rgb(176, 96, 188) 37.5%,
+        rgb(176, 96, 188) 50%,
+        rgb(152, 95, 184) 50%,
+        rgb(152, 95, 184) 62.5%,
+        rgb(129, 94, 180) 62.5%,
+        rgb(129, 94, 180) 75%,
+        rgb(105, 93, 176) 75%,
+        rgb(105, 93, 176) 87.5%,
+        rgb(82, 92, 172) 87.5%,
+        rgb(82, 92, 172) 100%
+      );
+    background-size: cover;
+    text-align: left;
+  }
+  
+  .Headshot-Image {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 50%;
+    /* Rounds the border of the image to present a circular image from a square/rectangular original */
+  }
+  
+   h2 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .Subheadings {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    /* Centres the subheadings */
+  }
+  
