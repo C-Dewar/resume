@@ -13,7 +13,7 @@ body {
       118deg,
       transparent 0%,
       transparent 11%,
-      rgba(171, 174, 137, 0.4) 11%,
+      rgba(138, 138, 135, 0.842) 11%,
       rgba(171, 174, 137, 0.4) 31%,
       transparent 31%,
       transparent 100%
@@ -45,46 +45,6 @@ body {
 header {
   text-align: center;
 }
-aside {
-  background-image: linear-gradient(
-      45deg,
-      rgba(254, 246, 210, 0.53) 0%,
-      rgba(254, 246, 210, 0.53) 14.286%,
-      rgba(221, 240, 216, 0.53) 14.286%,
-      rgba(221, 240, 216, 0.53) 28.572%,
-      rgba(188, 233, 223, 0.53) 28.572%,
-      rgba(188, 233, 223, 0.53) 42.858%,
-      rgba(156, 227, 229, 0.53) 42.858%,
-      rgba(156, 227, 229, 0.53) 57.144%,
-      rgba(123, 220, 235, 0.53) 57.144%,
-      rgba(123, 220, 235, 0.53) 71.42999999999999%,
-      rgba(90, 214, 242, 0.53) 71.43%,
-      rgba(90, 214, 242, 0.53) 85.71600000000001%,
-      rgba(57, 207, 248, 0.53) 85.716%,
-      rgba(57, 207, 248, 0.53) 100.002%
-    ),
-    linear-gradient(
-      135deg,
-      rgb(246, 99, 200) 0%,
-      rgb(246, 99, 200) 12.5%,
-      rgb(223, 98, 196) 12.5%,
-      rgb(223, 98, 196) 25%,
-      rgb(199, 97, 192) 25%,
-      rgb(199, 97, 192) 37.5%,
-      rgb(176, 96, 188) 37.5%,
-      rgb(176, 96, 188) 50%,
-      rgb(152, 95, 184) 50%,
-      rgb(152, 95, 184) 62.5%,
-      rgb(129, 94, 180) 62.5%,
-      rgb(129, 94, 180) 75%,
-      rgb(105, 93, 176) 75%,
-      rgb(105, 93, 176) 87.5%,
-      rgb(82, 92, 172) 87.5%,
-      rgb(82, 92, 172) 100%
-    );
-  background-size: cover;
-  text-align: left;
-}
 
 .Headshot-Image {
   margin-left: auto;
@@ -94,13 +54,35 @@ aside {
   /* Rounds the border of the image to present a circular image from a square/rectangular original */
 }
 
- h2 {
+h2 {
   text-align: center;
+  font-size: large;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 .Subheadings {
   font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
   text-align: center;
   /* Centres the subheadings */
 }
+
+nav {
+  text
+  margin-left: 1rem;
+  margin-right: auto;
+  background-color: black;
+  width: 100px;
+  border-radius: 10%;
+  padding: 30px;
+  position: sticky;
+  top: 0px;
+}
+p {
+  margin: 2rem;
+}
+
+h3 {
+  margin: 1rem;
+}
+ /* color pallet for the website: tangerine, lines: Black in between. Base colour green. darker form later, with orange + white
