@@ -1,0 +1,102 @@
+body {
+
+  /*this is the background gradient code from www.gradientmagic.com */
+  background: linear-gradient(
+      307deg,
+      transparent 0%,
+      transparent 10%,
+      rgba(171, 174, 137, 0.4) 10%,
+      rgba(171, 174, 137, 0.4) 64%,
+      transparent 64%,
+      transparent 100%
+    ),
+    linear-gradient(
+      118deg,
+      transparent 0%,
+      transparent 11%,
+      rgba(138, 138, 135, 0.842) 11%,
+      rgba(171, 174, 137, 0.4) 31%,
+      transparent 31%,
+      transparent 100%
+    ),
+    linear-gradient(
+      73deg,
+      transparent 0%,
+      transparent 22%,
+      rgba(171, 174, 137, 0.4) 22%,
+      rgba(171, 174, 137, 0.4) 90%,
+      transparent 90%,
+      transparent 100%
+    ),
+    linear-gradient(
+      156deg,
+      transparent 0%,
+      transparent 51%,
+      rgba(171, 174, 137, 0.4) 51%,
+      rgba(171, 174, 137, 0.4) 97%,
+      transparent 97%,
+      transparent 100%
+    ),
+    linear-gradient(90deg, rgb(71, 72, 56), rgb(71, 72, 56));
+  background-repeat: no-repeat; /*This ensures that only a single copy of the background is created regardless of the size of the screen*/
+  background-attachment: fixed; /*This ensures that the background stays fixed on the screen as the individual scrolls through the written content*/
+  background-position: center; /*This ensures that the background is centred on the device so that the shadowlines and colours are simillar and relatable across different viewing devices*/
+  background-size: cover; /*This ensures that the background covers the entire canvas of the screen regardless of discrepencies in sizes of the device upon which it will be viewed*/
+}
+
+
+/* Text/Font Styling**/
+
+.NavHeader {
+  text-align: center;
+  font-size: large;
+  font-family: "Lato", Helvetica, sans-serif;
+  font-color: white;
+
+}
+
+
+.Subheadings {
+    text-align: center;
+    font-size: large;
+    font-family: "Lato", Helvetica, sans-serif;
+    border-left-color: black;
+    border-left-width: 2px;
+  }
+ 
+  /* Centres the subheadings */
+}
+
+nav {
+  border-style:solid;
+  background-color: black;
+  width: 100px;
+  border-radius: 10px;
+  padding: 10px;
+  position: sticky;
+  top: 0px;
+}
+
+
+p {
+  margin: 2rem;
+}
+
+h3 {
+  margin: 1rem;
+}
+
+header {
+  text-align: center;
+}
+
+.Headshot-Image {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border-radius: 50%;
+  /* Rounds the border of the image to present a circular image from a square/rectangular original */
+}
+
+
+ /* color pallet for the website: tangerine, lines: Black in between. Base colour green. darker form later, with orange + white
