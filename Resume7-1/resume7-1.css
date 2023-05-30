@@ -2,7 +2,7 @@
 /* relatively position header image inside header element using CSS here */
 #header-image {
   position: relative;
-  top: 150px;
+  bottom: -100px;
 }
 
 body {
@@ -65,7 +65,7 @@ button:hover {
   color: whitesmoke;
   padding: 2rem;
   padding-bottom: 4rem;
-  height: 15vh;
+  height: 20vh;
 }
 .header-content {
   padding: 2rem;
@@ -137,4 +137,11 @@ main {
 
 #header {
   position: static;
+}
+
+section {
+  margin: 2rem;
+}
+label {
+  text-align: center;
 }

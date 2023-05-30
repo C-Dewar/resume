@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CSS Positioning</title>
-    <link rel="stylesheet" href="./css/resume7-1.css" />
+    <title>resume7-1</title>
+    <link rel="stylesheet" type="text/css" href="resume7-1.css" />
   </head>
 
   <body>
@@ -16,11 +16,7 @@
     </nav>
     <header id="top">
       <div>
-        <img
-          id="header-image"
-          src="./images/header-image.jpg"
-          alt="header-image"
-        />
+        <img id="header-image" src="header-image.jpg" alt="header-image" />
       </div>
       <div class="header-content">
         <h1>Super Software</h1>
@@ -120,6 +116,40 @@
         <button>Facebook</button>
         <button>Glassdoor</button>
       </p>
+
+      <br />
+      <h2>Get in touch:</h2>
+      <section>
+        <form
+          action="https://formsubmit.co/6b0b9a25bafcd79a8dac45f96166065c"
+          method="post"
+        >
+          <label> Email:</label>
+          <input
+            type="email"
+            name="Email"
+            placeholder="Required, valid email address only"
+            required
+          />
+          <br />
+          <label
+            >Please indicated which type of interests you represent
+            (required):</label
+          >
+          <input type="radio" name="Interest" value="Recruiter" checked />
+          <label for="rating">Recruiter</label>
+          <input type="radio" name="Interest" value="Business" checked />
+          <label for="rating">Business</label>
+          <input type="radio" name="Interest" value="Startup" checked />
+          <label for="rating">Startup</label>
+
+          <br />
+
+          <label>Care to share the nature of your inquiry?</label>
+          <textarea name="feedbackStatement" cols="50" rows="7"></textarea>
+          <input type="submit" name="submit" value="Submit Feedback" />
+        </form>
+      </section>
     </footer>
   </body>
 </html>
