@@ -3,19 +3,25 @@
 .hero-image {
   margin: 150px auto;
   width: 70%;
-  display: inline-flex;
+  text-align: center;
 }
 header {
-  justify-content: flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   min-height: 100vh;
-  text-align: right;
-  flex: 2;
+}
+
+.header-content {
+  text-align: center;
+  justify-content: inline;
+  padding: 2rem;
+  padding: 2rem;
 }
 
 #header-image {
   float: left;
-  flex: 1;
-  
+  margin-left: 15px;
 }
 
 body {
@@ -23,6 +29,7 @@ body {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   margin: 0;
   align-items: center;
+  padding: 2rem;
 }
 
 /* ---- Back to top ---- */
@@ -80,11 +87,6 @@ button:hover {
   padding-bottom: 4rem;
   height: 25vh;
 }
-.header-content {
-  text-align: center;
-  justify-content: inline;
-  padding: 2rem;
-}
 
 /* ---- Content ----- */
 
@@ -99,7 +101,6 @@ button:hover {
 }
 .service h3 {
   padding: 1rem;
-  padding-right: 3rem;
 }
 
 /* ---- About ----- */
@@ -121,9 +122,9 @@ button:hover {
 }
 
 /* 
-      Write CSS here to ensure that the back to top button is fixed to the 
-      bottom right hand side of the screen 
-  */
+        Write CSS here to ensure that the back to top button is fixed to the 
+        bottom right hand side of the screen 
+    */
 #back-to-top {
   position: fixed;
   bottom: 80px;
@@ -138,4 +139,48 @@ button:hover {
 
 section {
   margin: 2rem;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 30px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+
+  h3 {
+    font-size: 10px;
+    padding: 1rem;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  article {
+    font-size: medium;
+  }
+  h1 {
+    font-size: 42px;
+  }
+  h2 {
+    font-size: 28px;
+  }
+  h3 {
+    font-size: 16px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  h1 {
+    font-size: 54px;
+  }
+  h2 {
+    font-size: 32px;
+  }
+  h3 {
+    font-size: 20px;
+  }
 }

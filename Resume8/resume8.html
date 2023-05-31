@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>resume7-2</title>
-    <link rel="stylesheet" type="text/css" href="resume7-2.css" />
+    <title>resume8</title>
+    <link rel="stylesheet" type="text/css" href="resume8.css" />
   </head>
 
   <body>
@@ -17,12 +17,12 @@
     <header id="top">
       <div class="hero-image">
         <picture id="header-image">
-          <source media="(max-width: 500px)" srcset="images/Face.jpg" />
+          <source media="(min-width: 1000px)" srcset="images/TorsoImage.jpg" />
           <source
-            media="(max-width: 1000px)"
+            media="(min-width: 500px)"
             srcset="images/HeadandShoulders.jpg"
           />
-          <img src="images/TorsoImage.jpg" alt="headshot" />
+          <img src="images/Face.jpg" alt="headshot" />
         </picture>
         <div class="header-content">
           <h1>Super Software</h1>
@@ -105,6 +105,52 @@
       </a>
     </main>
 
-    <footer id="footer"></footer>
+    <footer id="footer">
+      <h4>Socials:</h4>
+      <p>
+        <button>LinkedIn</button>
+        <button>Facebook</button>
+        <button>Glassdoor</button>
+      </p>
+
+      <br />
+      <h2>Get in touch:</h2>
+      <section>
+      <p <form
+          action="https://formsubmit.co/6b0b9a25bafcd79a8dac45f96166065c"
+          method="post"
+        >
+          <label> Email:</label>
+          <input
+            type="email"
+            name="Email"
+            placeholder="Required, valid email address only"
+            required
+          /></p>
+          <p><label
+            >Please indicated which type of interests you represent
+            (Required):</label
+          >
+          <input type="radio" name="Interest" value="Recruiter" unchecked />
+          <label for="rating">Recruiter</label>
+          <input type="radio" name="Interest" value="Business" unchecked />
+          <label for="rating">Business</label>
+          <input type="radio" name="Interest" value="Startup" unchecked />
+          <label for="rating">Startup</label> 
+          </p>
+
+          <p><label>Care to share the nature of your inquiry?</label>
+          
+          <textarea
+            name="feedbackStatement"
+            placeholder="Optional"
+            cols="50"
+            rows="7"
+          ></textarea>
+          <input type="submit" name="submit" value="Submit Feedback" />
+        </form>
+      </p>
+      </section>
+    </footer>
   </body>
 </html>
