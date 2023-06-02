@@ -65,10 +65,10 @@ body {
   }
  
   /* Centres the subheadings */
-}
+
 
 nav {
-  border-style:solid;
+  border-style:solid; 
   background-color: black;
   width: 100px;
   border-radius: 10px;
