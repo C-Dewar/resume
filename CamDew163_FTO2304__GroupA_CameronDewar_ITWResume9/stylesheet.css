@@ -48,6 +48,7 @@ body {
   background-size: cover; /*This ensures that the background covers the entire canvas of the screen regardless of discrepencies in sizes of the device upon which it will be viewed*/
 }
 
+
 #navbar {
   height: 10vh;
   display: flex;
@@ -61,30 +62,38 @@ body {
   font-size: 2rem;
   font-family: font-family: "Lato", Helvetica, sans-serif;
 }
+
 body h1 {
   text-align: center;
-  font-size: clamp(30px, 3rem, 50px);
+  font-size: clamp(50px, 3rem, 70px);
   font-family: "Lato", Helvetica, sans-serif;
 }
 body h2 {
   text-align: center;
-  font-size: clamp(20px, 2.4rem, 42px);
+  font-size: clamp(30px, 2.4rem, 45px);
   font-family: "Lato", Helvetica, sans-serif;
 }
 body h3 {
   text-align: center;
-  font-size: clamp(20px, 1.8rem, 28px);
+  font-size: clamp(20px, 2rem, 28px);
   font-family: "Lato", Helvetica, sans-serif;
 }
 
 body p {
   text-align: center;
-  font-size: clamp(12px, 1.2rem, 20px);
+  font-size: clamp(12px, 1.2rem, 30px);
   font-family: "Lato", Helvetica, sans-serif;
+  color:hwb(0 96% 4%)
 }
 footer h4 {
   margin: 0%;
 }
+
+footer p{
+  align-content:center;
+}
+
+
 section {
   background-color: hsla(17, 56%, 30%, 0.555);
   background-size: cover;
@@ -100,6 +109,7 @@ section {
 
 header {
   display: flex;
+  flex:wrap;
   justify-content: space-evenly;
   align-items: center;
   min-height: 100vh;
