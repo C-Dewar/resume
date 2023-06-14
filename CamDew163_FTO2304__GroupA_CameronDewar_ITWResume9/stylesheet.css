@@ -5,34 +5,42 @@ body {
   margin: auto;
   padding-bottom: 0%;
   /*this is the background gradient code from www.gradientmagic.com */
-  background: linear-gradient(307deg,
+  background: linear-gradient(
+      307deg,
       transparent 0%,
       transparent 10%,
       rgba(171, 174, 137, 0.4) 10%,
       rgba(171, 174, 137, 0.4) 64%,
       transparent 64%,
-      transparent 100%),
-    linear-gradient(118deg,
+      transparent 100%
+    ),
+    linear-gradient(
+      118deg,
       transparent 0%,
       transparent 11%,
       rgba(138, 138, 135, 0.842) 11%,
       rgba(171, 174, 137, 0.4) 31%,
       transparent 31%,
-      transparent 100%),
-    linear-gradient(73deg,
+      transparent 100%
+    ),
+    linear-gradient(
+      73deg,
       transparent 0%,
       transparent 22%,
       rgba(171, 174, 137, 0.4) 22%,
       rgba(171, 174, 137, 0.4) 90%,
       transparent 90%,
-      transparent 100%),
-    linear-gradient(156deg,
+      transparent 100%
+    ),
+    linear-gradient(
+      156deg,
       transparent 0%,
       transparent 51%,
       rgba(171, 174, 137, 0.4) 51%,
       rgba(171, 174, 137, 0.4) 97%,
       transparent 97%,
-      transparent 100%),
+      transparent 100%
+    ),
     linear-gradient(90deg, rgb(71, 72, 56), rgb(71, 72, 56));
   background-repeat: no-repeat;
   /*This ensures that only a single copy of the background is created regardless of the size of the screen*/
@@ -44,7 +52,6 @@ body {
   /*This ensures that the background covers the entire canvas of the screen regardless of discrepencies in sizes of the device upon which it will be viewed*/
 }
 
-
 #navbar {
   display: flex;
   justify-content: space-evenly;
@@ -53,6 +60,7 @@ body {
   width: 100%;
   padding-top: 20px;
   color: white;
+  text-decoration-color: none;
   background-color: rgba(0, 0, 0, 0.5);
   font-size: 25px;
   font-family: "Lato", Helvetica, sans-serif;
@@ -77,7 +85,7 @@ body p {
   text-align: center;
   font-size: clamp(12px, 1.2rem, 30px);
   font-family: "Lato", Helvetica, sans-serif;
-  color: hwb(0 96% 4%)
+  color: hwb(0 96% 4%);
 }
 
 footer h4 {
@@ -87,7 +95,6 @@ footer h4 {
 footer p {
   align-content: center;
 }
-
 
 section {
   background-color: hsla(17, 56%, 30%, 0.555);
